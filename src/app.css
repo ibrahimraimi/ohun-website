@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+	src: url('/fonts/Excon-Regular.woff') format('woff');
+	font-family: excon;
+}
+@font-face {
+	src: url('/fonts/Excon-Bold.woff') format('woff');
+	font-family: excon-bold;
+}
+@font-face {
+	src: url('/fonts/Excon-Black.woff') format('woff');
+	font-family: excon-black;
+}
+
+body {
+	@apply mx-auto max-w-[1500px] bg-black text-[#f3c77c];
+}
+
+a {
+	@apply text-green-400 !no-underline visited:text-green-600;
+}
