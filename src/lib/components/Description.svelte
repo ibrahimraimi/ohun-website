@@ -3,7 +3,7 @@
 </script>
 
 <div class="mx-auto flex max-w-[1000px] flex-col gap-4">
-	<p class="mx-auto py-16 text-2xl text-inherit">
+	<p class="mx-auto py-16 text-xl text-inherit md:text-2xl">
 		Ohun is an innovative synced lyrics provider for Linux, designed to enrich the music listening
 		experience by displaying synchronized song lyrics. Developed using <a href="https://tauri.app/"
 			>Tauri</a
@@ -17,7 +17,7 @@
 
 	<div class="flex flex-col gap-5">
 		<h3 class="font-bold text-3xl">Ohun is currently available on</h3>
-		<div class="grid grid-cols-6">
+		<div class="grid grid-cols-3">
 			<div class="flex flex-col items-center gap-3">
 				<img src="/img/linux.svg" class="h-20 w-20" alt="linux" />
 				<p class="text-xl">Linux</p>
@@ -27,7 +27,7 @@
 
 	<div class="flex flex-col gap-5">
 		<h3 class="font-bold text-3xl">There are currently plans for</h3>
-		<div class="grid grid-cols-6">
+		<div class="grid grid-cols-3">
 			<div class="flex flex-col items-center gap-3">
 				<img src="/img/windows.svg" class="h-20 w-20" alt="linux" />
 				<p class="text-xl">Windows</p>
