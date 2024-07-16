@@ -45,6 +45,6 @@
 
 	<span class="my-11 text-center"
 		>Built with <span class="inline-block px-3"><Heart /> </span>by
-		<a href="https://n3-rd.vercel.app">N3rd</a></span
+		<a href="https://n3rd.vercel.app">N3rd</a></span
 	>
 </div>

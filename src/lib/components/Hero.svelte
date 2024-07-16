@@ -6,7 +6,7 @@
 		</p>
 		<a href="https://web.crabnebula.cloud/n3rd/ohun/releases" target="_blank">
 			<button
-				class="my-10 rounded-full bg-[#f3c77c] px-7 py-4 text-3xl text-black transition-all hover:px-10"
+				class="my-10 rounded-full bg-[#f3c77c] px-7 py-4 text-xl text-black transition-all hover:px-10 lg:text-3xl"
 				>Download
 			</button></a
 		>
