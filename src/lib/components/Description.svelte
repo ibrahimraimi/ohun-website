@@ -16,7 +16,7 @@
 	</p>
 
 	<div class="flex flex-col gap-5">
-		<h3 class="font-bold text-3xl">Ohun is currently available on</h3>
+		<h3 class="font-bold text-2xl lg:text-3xl">Ohun is currently available on</h3>
 		<div class="grid grid-cols-3">
 			<div class="flex flex-col items-center gap-3">
 				<img src="/img/linux.svg" class="h-20 w-20" alt="linux" />
@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="flex flex-col gap-5">
-		<h3 class="font-bold text-3xl">There are currently plans for</h3>
+		<h3 class="font-bold text-2xl lg:text-3xl">There are currently plans for</h3>
 		<div class="grid grid-cols-3">
 			<div class="flex flex-col items-center gap-3">
 				<img src="/img/windows.svg" class="h-20 w-20" alt="linux" />
