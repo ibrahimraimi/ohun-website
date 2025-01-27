@@ -1,38 +1,73 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Ohun
 
-## Creating a project
+![Ohun](https://i.postimg.cc/CLHcqxBZ/icon-192.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## _A synced lyrics provider for Linux_
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Get synchronized song lyrics and sing along with your favorite songs.
+Built with [Tauri](https://tauri.app/) and [Sveltekit](https://kit.svelte.dev/).
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Play a song
+- See the lyrics live!
+- ✨Magic ✨
 
-## Developing
+## Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Export and copy LRC files
+- Manually control your music from the app
+- Lightweight and memory friendly
+- Saves lyrics offline
+- Works with most music players and even browsers!
 
-```bash
-npm run dev
+There are very few sing along lyrics providers for Linux out there, Ohun attempts to solve this problem by providing a very lightweight and easy to use app
+If you find it useful, you can [Donate](https://buymeacoffee.com/n3rdyn3rd) to the cause
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Tech
 
-## Building
+Ohun uses a number of open source projects to work properly:
 
-To create a production version of your app:
+- [Playerctl](https://github.com/altdesktop/playerctl) - Playerctl is a command-line utility and library for controlling media players that implement the [MPRIS](http://specifications.freedesktop.org/mpris-spec/latest/) D-Bus Interface Specification.
+- [Tauri](https://tauri.app/) - Build an optimised, secure, and frontend-independent application for multi-platform deployment.
+- [Sveltekit](https://kit.svelte.dev/) web development, streamlined
+- [Paroles](https://github.com/Clarkkkk/paroles) Library for parsing, making, modifying and "playing" LRC format lyrics
+- [Lockr](https://github.com/tsironis/lockr) A minimal API wrapper for localStorage. Simple as your high-school locker.
 
-```bash
-npm run build
-```
+And of course Ohun itself is open source with a [repository](https://github.com/n3-rd/ohun) on GitHub.
 
-You can preview the production build with `npm run preview`.
+## Installation
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Download any release you want [here](https://github.com/n3-rd/ohun/releases/).
+
+## Development
+
+Want to contribute? Great!
+
+Ohun uses NodeJS + Rust for fast development.
+Make a change in your file and instantaneously see your updates!
+
+1.  Clone this repository
+2.  Navigate to the folder and run `npm install` or `yarn install` or `pnpm install`
+3.  Run development server with `npm run tauri dev` or `yarn tauri dev` or `pnpm tauri dev`
+4.  Make changes and build with `npm run tauri build` or `yarn tauri build` or `pnpm tauri build`
+
+## Roadmap for Ohun
+
+*The main roadmap still prioritises cross-platform compatibility, especially with Windows. The biggest problem plaguing the compatibility is the fact that not many tools exist for getting media metadata from Windows and Mac. Ohun for Linux uses playerctl to get metadata for the currently playing media, but it only works on Linux, a few workarounds exist, some very crude and not healthy for this project. I currently do not have a lot of time to work on this project as I am on a tight schedule but will do my best to achieve cross-compatibility in the near future.*
+
+- **Cross compatibility**
+✅ Improvement in UI (some elements don't just behave...... right)
+- Better offline support (caching images for offline use)
+- Better error handling
+- Fix "Always on top" (Minor Tauri Bug)
+✅ Embed playerctl in the Linux binary as a sidecar so the user does not need to install it manually.
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
+## Conditions for use
+
+Don't do drugs
